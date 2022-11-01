@@ -25,12 +25,11 @@ class CreatureDto: Identifiable {
         
     }
     
-    // Override
     func welcomeLetter() -> String {
         
         guard let name = self.name else {
             
-            return "Hoş geldin"
+            return "Hoş geldiniz"
             
         }
         
